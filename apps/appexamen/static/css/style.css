@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+header {
+  display: flex;
+}
+#encabezado {
+  display: inline-block;
+}
+#encabezadoDerecha {
+  margin-right: 10%;
+  margin-left: auto;
+}
+
+.campoTabla {
+  width: 200px;
+}
+#conteinerLeft,
+#conteinerRight {
+  vertical-align: top;
+  border: 1px solid black;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+input {
+  border: 1px solid black;
+}
+.tituloTabla {
+  position: relative;
+  top: -33px;
+  left: 20px;
+  background-color: white;
+  width: min-content;
+}
+#left,
+#right {
+  vertical-align: top;
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+.scroll1 {
+  width: 80%;
+  height: 150px;
+  overflow: auto;
+  border: 1px solid black;
+}
+#add {
+  width: 600px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 20px;
+}
+.linea {
+  border: 1px solid black;
+}
+#detalleLeft {
+  width: 50%;
+  display: inline-block;
+  padding: 10px;
+}
+
+#detalleRight {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+.comentario {
+  border-top: 1px solid black;
+}
+.enlinea {
+  display: inline-block;
+}
+#bookList {
+  padding-left: 30px;
+}
+#datosTrip {
+  padding-left: 20px;
+  width: 600px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+#tablaViaje {
+  width: 80%;
+  margin: 0 auto;
+}
+#tablaOtrosViajes {
+  width: 80%;
+  margin: 0 auto;
+}
